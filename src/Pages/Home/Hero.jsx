@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import './Hero.css';
 
 
 
@@ -25,7 +26,7 @@ export default function Hero(){
                         <h1 className="hero-title">
                             Hey, I'm Harsh
                         </h1>
-                        <h1>
+                        <h1 className='Auto'>
                             <span className="Autotext">
                                 
                             </span>
@@ -36,7 +37,7 @@ export default function Hero(){
                             visually engaging solutions.
                         </p>
                     </div>
-                    <button>Get in Touch</button>
+                    <button className='btn hero-btn'>Get in Touch</button>
                 </div>
 
             </div>
