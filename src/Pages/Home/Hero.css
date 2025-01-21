@@ -42,7 +42,7 @@
   
   }
   
-  .hero-image img {
+  .hero-image img{
     height: 90vh;
     animation: appear 0.8s linear;
     position: relative;
