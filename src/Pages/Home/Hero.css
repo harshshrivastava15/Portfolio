@@ -35,5 +35,11 @@
 }
 .hero-image img{
     height: 90vh;
+    animation: appear 1s linear;
 
+}
+.content-box{
+    animation: appear 1s linear;
+    /* animation-timeline: view(); */
+    /* animation-range: entry 0% cover 40%; */
 }

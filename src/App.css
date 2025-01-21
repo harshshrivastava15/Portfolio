@@ -48,4 +48,16 @@ h1,h2,h3,h4,h5,h6,p{
   background-color:var(--primary);
 }
 
+@keyframes appear {
+  from{
+    opacity:0;
+    /* clip-path: inset(50% 50% 0 0); */
+    transform: translateX(-60px);
+  }to{
+    opacity: 1;
+    /* clip-path: inset(0 0 0 0); */
+    transform: translateX(0px);
+  }
+}
+
 
