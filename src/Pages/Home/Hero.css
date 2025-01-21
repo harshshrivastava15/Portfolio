@@ -63,6 +63,7 @@
     align-items: start;
     gap:32px;
 }
+
 .headings{
     display: flex;
     flex-direction:column;
