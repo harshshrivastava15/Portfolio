@@ -1,0 +1,89 @@
+/* General styling */
+body {
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-shade);
+    padding: 2rem 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 2rem;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: var(--heading);
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: var(--primary);
+  }
+  
+  /* Mobile-specific styles */
+  .navbar-toggle {
+    display: none;
+  }
+  
+  .navbar-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .navbar-icon span {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+    .navbar-links li {
+      text-align: center;
+      margin: 1rem 0;
+    }
+  
+    .navbar-toggle:checked ~ .navbar-links {
+      display: flex;
+    }
+  
+    .navbar-icon {
+      display: flex;
+    }
+  }
+  

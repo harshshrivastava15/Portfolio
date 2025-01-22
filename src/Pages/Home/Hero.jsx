@@ -27,7 +27,7 @@ export default function Hero(){
                     <div className="headings">
                         <h1 className="hero-title">
                             Hey, I'm Harsh
-                            <BlobAnimation size="5vw" color="#33ccff" />
+                            
                         </h1>
                         <h1 className='Auto'>
                             <span className="Autotext">
@@ -48,7 +48,7 @@ export default function Hero(){
                 <div class="blob"></div>
                 <div class="blob"></div>
               </div> */}
-            <BlobAnimation/>
+                <BlobAnimation size="30vw" />
             
                 <img src="src/assets/prof.png" alt="hero Section" />
             </div>
